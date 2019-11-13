@@ -30,4 +30,6 @@ Pod::Spec.new do |s|
   s.public_header_files = ["Log4swift/log4swift.h", "Third Parties/NSLogger/*.h", "Log4swift/Objective-c wrappers/*.h"]
 
   s.watchos.exclude_files = ["Third Parties/NSLogger/*", "Log4swift/Appenders/NSLoggerAppender.swift"]
+
+  s.libraries = 'swiftos'
 end
